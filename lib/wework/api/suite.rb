@@ -6,6 +6,7 @@ module Wework
 
       include Wework::Cipher
       include Methods::Service
+      include Methods::Externalcontact
 
       attr_reader :encoding_aes_key, :suite_id, :suite_secret, :suite_token, :token
 
